@@ -27,6 +27,18 @@ void loop() {
   }
 }
 
+Esse código é para um sensor de movimento que conta quantas vezes algo se move.
+
+Variáveis: FLAG controla se o sensor já foi ativado, e movimentoCount conta as ativações.
+Setup: Configura os pinos—19 para saída (LED) e 13 para entrada (sensor).
+Loop:
+Quando o sensor detecta movimento (HIGH), ele ativa o LED, aumenta a contagem e imprime no serial.
+Quando não há movimento (LOW), desativa o LED e imprime que o sensor foi desativado.
+A ideia é monitorar movimento de forma simples e eficiente. Se precisar de mais alguma coisa, é só avisar!
+
+
+
+
 link do projeto no site 
 
 https://wokwi.com/projects/410503195127061505
